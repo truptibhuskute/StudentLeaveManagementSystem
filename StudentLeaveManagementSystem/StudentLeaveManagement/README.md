@@ -47,40 +47,9 @@ The Student Leave Management System is designed to streamline the process of lea
 - **Architecture**: Layered architecture with service layer
 - **Design**: Object-Oriented Programming principles
 
-## 📁 Project Structure
 
-```
-StudentLeaveManagement/
-├── src/main/java/com/studentleave/
-│   ├── models/              # Entity classes
-│   │   ├── Student.java
-│   │   ├── Leave.java
-│   │   └── Admin.java
-│   ├── services/            # Business logic layer
-│   │   ├── StudentService.java
-│   │   ├── LeaveService.java
-│   │   ├── AdminService.java
-│   │   └── ReportingService.java
-│   ├── controllers/         # Presentation layer
-│   │   ├── StudentController.java
-│   │   └── AdminController.java
-│   ├── database/           # Database utilities
-│   │   └── DatabaseConnection.java
-│   ├── utils/              # Utility classes
-│   │   └── InputUtils.java
-│   ├── exceptions/         # Custom exceptions
-│   │   └── LeaveManagementException.java
-│   └── StudentLeaveManagementApp.java  # Main application
-├── src/main/resources/
-│   └── database.properties # Database configuration
-├── database/
-│   └── schema.sql          # Database schema
-└── README.md
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
+ 🚀 Getting Started
+ Prerequisites
 - Java Development Kit (JDK) 17 or higher
 - MySQL Server 8.0 or higher
 - MySQL JDBC Driver (mysql-connector-java)
@@ -297,14 +266,6 @@ The system implements comprehensive error handling:
 - Error message standardization
 - Logging for audit purposes
 
-## 🧪 Testing & Quality Assurance
-
-### Testing Strategy
-- Manual testing with various scenarios
-- Edge case validation
-- Error condition testing
-- User workflow validation
-
 ### Code Quality
 - Comprehensive documentation
 - Consistent naming conventions
@@ -314,14 +275,14 @@ The system implements comprehensive error handling:
 ## 🚀 Future Enhancements
 
 ### Planned Features
-1. **Web Interface**: Spring Boot web application
-2. **Email Notifications**: Automated email alerts
-3. **File Attachments**: Support for leave documents
-4. **Mobile App**: Android/iOS mobile applications
-5. **API Integration**: RESTful web services
-6. **Advanced Reporting**: Charts and visualizations
-7. **Calendar Integration**: Calendar view of leaves
-8. **Workflow Engine**: Configurable approval workflows
+1. Web Interface: Spring Boot web application
+2. Email Notifications: Automated email alerts
+3. File Attachments: Support for leave documents
+4. Mobile App: Android/iOS mobile applications
+5. API Integration: RESTful web services
+6. Advanced Reporting: Charts and visualizations
+7. Calendar Integration: Calendar view of leaves
+8. Workflow Engine: Configurable approval workflows
 
 ### Technical Improvements
 - Microservices architecture
@@ -330,20 +291,6 @@ The system implements comprehensive error handling:
 - Enhanced security features
 - Internationalization support
 
-## 🤝 Contributing
-
-This project serves as a demonstration of Java programming skills and software engineering best practices. Contributions and suggestions are welcome for educational purposes.
-
-### Development Guidelines
-- Follow Java coding conventions
-- Maintain comprehensive documentation
-- Implement proper error handling
-- Write meaningful commit messages
-- Test thoroughly before submission
-
-## 📄 License
-
-This project is developed for educational and portfolio purposes. Feel free to use it as a reference for learning Java application development.
 
 ## 📞 Support & Contact
 
@@ -355,8 +302,6 @@ For questions, suggestions, or support:
 ---
 
 ## 🎓 Learning Outcomes
-
-This project demonstrates proficiency in:
 
 ### Core Java Concepts
 - Object-Oriented Programming (OOP)
@@ -391,4 +336,5 @@ This project demonstrates proficiency in:
 - Reporting and analytics
 - Audit trail and history tracking
 
-This comprehensive project showcases practical Java backend development skills suitable for enterprise-level applications and demonstrates understanding of software engineering principles essential for professional development.
+
+
